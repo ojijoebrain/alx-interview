@@ -4,7 +4,7 @@
 
 def pascal_triangle(n):
     '''
-    lists of integers representing the Pascal’s triangle
+    lists of integers representing the Pascal triangle
     '''
     lists = []
     if n == 0:
