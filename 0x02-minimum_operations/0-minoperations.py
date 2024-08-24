@@ -5,7 +5,7 @@ This script contains a function that calculates the fewest number of operations
 needed to reach exactly `n` characters using Copy All and Paste operations.
 """
 
-def minOperations(n):
+def min_operations(n):
     """
     Calculate the minimum number of operations needed to obtain exactly `n`
     characters in the file.
