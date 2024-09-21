@@ -13,7 +13,7 @@ request({ url: url, strictSSL: false }, function (err, res, body) {
 
   const charactersArray = JSON.parse(body).characters;
 
-  function printCharacterName(index) {
+  function printCharacterName (index) {
     if (index >= charactersArray.length) {
       return;
     }
